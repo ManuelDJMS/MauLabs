@@ -10,10 +10,14 @@
         If num < 10 Then
             num = num + 1
         Else
-            Timer1.Stop()
-            While Panel1.Width < 286
-                Panel1.Width += 1
-            End While
+            'Timer1.Stop()
+            'While Panel2.Location.X <= 693
+            '    Panel2.Left -= 1
+
+            '    If (Panel2.Location.X = 375) Then
+            '        'Panel2.Location.X
+            '    End If
+            'End While
         End If
     End Sub
 End Class
